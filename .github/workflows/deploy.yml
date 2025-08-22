@@ -55,14 +55,16 @@ jobs:
       - name: Deploy to Cloudflare
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiKey: ${{ secrets.CLOUDFLARE_API_KEY }}
+          email: ${{ secrets.CLOUDFLARE_EMAIL }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy
 
       - name: Run DB migrations
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiKey: ${{ secrets.CLOUDFLARE_API_KEY }}
+          email: ${{ secrets.CLOUDFLARE_EMAIL }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           command: d1 migrations apply ${{ env.D1_DATABASE_NAME }} --remote
 
@@ -71,4 +73,4 @@ jobs:
         uses: nathanvaughn/actions-cloudflare-purge@master
         with:
           cf_zone: ${{ vars.CLOUDFLARE_ZONE_ID }}
-          cf_auth: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          cf_auth: ${{ secrets.CLOUDFLARE_API_KEY }}
