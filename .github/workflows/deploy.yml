@@ -46,9 +46,6 @@ jobs:
           echo "D1_DATABASE_NAME=$(node scripts/get-db-name.mjs)" >> $GITHUB_ENV
           echo "D1_DATABASE_ID=$(node scripts/get-db-id.mjs)" >> $GITHUB_ENV
 
-      - name: Migrate local D1 database
-        run: pnpm run db:migrate:dev
-
       - name: Build OpenNext
         run: pnpm run opennext:build
         env:

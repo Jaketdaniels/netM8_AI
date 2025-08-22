@@ -1,0 +1,92 @@
+name: Test Deploy Configuration
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-config:
+    runs-on: ubuntu-latest
+    name: Test Deployment Configuration
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check Secrets and Variables
+        run: |
+          echo "=== Checking Environment Variables ==="
+          echo "CLOUDFLARE_ACCOUNT_ID exists: ${{ vars.CLOUDFLARE_ACCOUNT_ID != '' && 'YES' || 'NO' }}"
+          echo "CLOUDFLARE_API_TOKEN exists: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && 'YES' || 'NO' }}"
+          echo "NEXT_PUBLIC_TURNSTILE_SITE_KEY exists: ${{ vars.NEXT_PUBLIC_TURNSTILE_SITE_KEY != '' && 'YES' || 'NO' }}"
+          echo "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY exists: ${{ vars.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY != '' && 'YES' || 'NO' }}"
+          echo "CLOUDFLARE_ZONE_ID exists: ${{ vars.CLOUDFLARE_ZONE_ID != '' && 'YES' || 'NO' }}"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check Database Configuration Scripts
+        run: |
+          echo "=== Checking database scripts ==="
+          if [ -f "scripts/get-db-name.mjs" ]; then
+            echo "✓ scripts/get-db-name.mjs exists"
+            echo "Database name: $(node scripts/get-db-name.mjs)"
+          else
+            echo "✗ scripts/get-db-name.mjs NOT FOUND"
+          fi
+          
+          if [ -f "scripts/get-db-id.mjs" ]; then
+            echo "✓ scripts/get-db-id.mjs exists"
+            echo "Database ID: $(node scripts/get-db-id.mjs)"
+          else
+            echo "✗ scripts/get-db-id.mjs NOT FOUND"
+          fi
+
+      - name: Check Wrangler Configuration
+        run: |
+          echo "=== Checking wrangler.jsonc ==="
+          if [ -f "wrangler.jsonc" ]; then
+            echo "✓ wrangler.jsonc exists"
+            echo "Worker name: $(node -e "const fs=require('fs'); const content=fs.readFileSync('wrangler.jsonc','utf8'); const json=content.replace(/\/\*[\s\S]*?\*\/|\/\/.*/g,''); console.log(JSON.parse(json).name)")"
+          else
+            echo "✗ wrangler.jsonc NOT FOUND"
+          fi
+
+      - name: Test Build Process
+        run: |
+          echo "=== Testing build process ==="
+          pnpm run opennext:build
+        env:
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: ${{ vars.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY }}
+
+      - name: Check Build Output
+        run: |
+          echo "=== Checking build output ==="
+          if [ -f ".open-next/worker.js" ]; then
+            echo "✓ .open-next/worker.js exists"
+            ls -lh .open-next/worker.js
+          else
+            echo "✗ .open-next/worker.js NOT FOUND"
+          fi
+
+      - name: Dry Run Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --dry-run
+
+      - name: List Secrets in Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: secret list

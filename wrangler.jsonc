@@ -59,6 +59,8 @@
       }
     ],
 
+    // Durable Objects for queue handling (OpenNext internal - warnings are expected)
+    // The DOQueueHandler class is internal to OpenNext and warnings can be ignored
     "durable_objects": {
       "bindings": [
         {
