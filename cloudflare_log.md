@@ -1,336 +1,738 @@
-2025-08-22T17:07:06.832Z	Initializing build environment...
-2025-08-22T17:07:17.841Z	Success: Finished initializing build environment
-2025-08-22T17:07:19.967Z	Cloning repository...
-2025-08-22T17:07:21.795Z	Restoring from dependencies cache
-2025-08-22T17:07:21.799Z	Restoring from build output cache
-2025-08-22T17:07:25.273Z	Detected the following tools from environment: nodejs@23.11.1, pnpm@10.11.1
-2025-08-22T17:07:25.274Z	Installing nodejs 23.11.1
-2025-08-22T17:07:40.139Z	Installing project dependencies: pnpm install --frozen-lockfile
-2025-08-22T17:07:41.338Z	Lockfile is up to date, resolution step is skipped
-2025-08-22T17:07:41.678Z	Progress: resolved 1, reused 0, downloaded 0, added 0
-2025-08-22T17:07:41.997Z	Packages: +1162
-2025-08-22T17:07:41.998Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2025-08-22T17:07:42.685Z	Progress: resolved 1162, reused 0, downloaded 0, added 0
-2025-08-22T17:07:48.769Z	Progress: resolved 1162, reused 0, downloaded 1, added 0
-2025-08-22T17:07:50.926Z	Progress: resolved 1162, reused 0, downloaded 2, added 0
-2025-08-22T17:07:51.930Z	Progress: resolved 1162, reused 0, downloaded 43, added 8
-2025-08-22T17:07:52.927Z	Progress: resolved 1162, reused 0, downloaded 64, added 27
-2025-08-22T17:07:53.928Z	Progress: resolved 1162, reused 0, downloaded 99, added 99
-2025-08-22T17:07:54.929Z	Progress: resolved 1162, reused 0, downloaded 128, added 127
-2025-08-22T17:07:55.931Z	Progress: resolved 1162, reused 0, downloaded 150, added 150
-2025-08-22T17:07:56.934Z	Progress: resolved 1162, reused 0, downloaded 179, added 177
-2025-08-22T17:07:57.940Z	Progress: resolved 1162, reused 0, downloaded 231, added 210
-2025-08-22T17:07:58.941Z	Progress: resolved 1162, reused 0, downloaded 246, added 214
-2025-08-22T17:08:02.559Z	Progress: resolved 1162, reused 0, downloaded 247, added 214
-2025-08-22T17:08:03.562Z	Progress: resolved 1162, reused 0, downloaded 312, added 246
-2025-08-22T17:08:04.562Z	Progress: resolved 1162, reused 0, downloaded 356, added 356
-2025-08-22T17:08:05.562Z	Progress: resolved 1162, reused 0, downloaded 392, added 385
-2025-08-22T17:08:06.567Z	Progress: resolved 1162, reused 0, downloaded 488, added 437
-2025-08-22T17:08:07.567Z	Progress: resolved 1162, reused 0, downloaded 506, added 444
-2025-08-22T17:08:09.446Z	Progress: resolved 1162, reused 0, downloaded 507, added 444
-2025-08-22T17:08:10.477Z	Progress: resolved 1162, reused 0, downloaded 564, added 468
-2025-08-22T17:08:11.474Z	Progress: resolved 1162, reused 0, downloaded 575, added 471
-2025-08-22T17:08:12.481Z	Progress: resolved 1162, reused 0, downloaded 581, added 472
-2025-08-22T17:08:13.476Z	Progress: resolved 1162, reused 0, downloaded 643, added 530
-2025-08-22T17:08:14.517Z	Progress: resolved 1162, reused 0, downloaded 698, added 565
-2025-08-22T17:08:15.518Z	Progress: resolved 1162, reused 0, downloaded 700, added 565
-2025-08-22T17:08:16.520Z	Progress: resolved 1162, reused 0, downloaded 706, added 567
-2025-08-22T17:08:17.521Z	Progress: resolved 1162, reused 0, downloaded 709, added 569
-2025-08-22T17:08:18.522Z	Progress: resolved 1162, reused 0, downloaded 714, added 569
-2025-08-22T17:08:22.311Z	Progress: resolved 1162, reused 0, downloaded 715, added 569
-2025-08-22T17:08:23.324Z	Progress: resolved 1162, reused 0, downloaded 749, added 581
-2025-08-22T17:08:24.346Z	Progress: resolved 1162, reused 0, downloaded 762, added 586
-2025-08-22T17:08:25.343Z	Progress: resolved 1162, reused 0, downloaded 776, added 590
-2025-08-22T17:08:25.343Z	Progress: resolved 1162, reused 0, downloaded 776, added 590
-2025-08-22T17:08:26.344Z	Progress: resolved 1162, reused 0, downloaded 779, added 592
-2025-08-22T17:08:27.425Z	Progress: resolved 1162, reused 0, downloaded 780, added 592
-2025-08-22T17:08:28.419Z	Progress: resolved 1162, reused 0, downloaded 783, added 593
-2025-08-22T17:08:29.419Z	Progress: resolved 1162, reused 0, downloaded 795, added 700
-2025-08-22T17:08:30.421Z	Progress: resolved 1162, reused 0, downloaded 795, added 749
-2025-08-22T17:08:31.422Z	Progress: resolved 1162, reused 0, downloaded 795, added 752
-2025-08-22T17:08:35.999Z	Progress: resolved 1162, reused 0, downloaded 795, added 753
-2025-08-22T17:08:37.005Z	Progress: resolved 1162, reused 0, downloaded 835, added 768
-2025-08-22T17:08:38.007Z	Progress: resolved 1162, reused 0, downloaded 899, added 800
-2025-08-22T17:08:39.005Z	Progress: resolved 1162, reused 0, downloaded 942, added 870
-2025-08-22T17:08:40.009Z	Progress: resolved 1162, reused 0, downloaded 1016, added 903
-2025-08-22T17:08:41.018Z	Progress: resolved 1162, reused 0, downloaded 1062, added 919
-2025-08-22T17:08:42.738Z	Progress: resolved 1162, reused 0, downloaded 1063, added 919
-2025-08-22T17:08:43.741Z	Progress: resolved 1162, reused 0, downloaded 1071, added 923
-2025-08-22T17:08:45.561Z	Progress: resolved 1162, reused 0, downloaded 1072, added 923
-2025-08-22T17:08:46.557Z	Progress: resolved 1162, reused 0, downloaded 1076, added 923
-2025-08-22T17:08:47.562Z	Progress: resolved 1162, reused 0, downloaded 1077, added 923
-2025-08-22T17:08:50.191Z	Progress: resolved 1162, reused 0, downloaded 1078, added 923
-2025-08-22T17:08:51.201Z	Progress: resolved 1162, reused 0, downloaded 1131, added 994
-2025-08-22T17:08:52.203Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1144
-2025-08-22T17:08:52.230Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1162, done
-2025-08-22T17:07:06.832Z	Initializing build environment...
-2025-08-22T17:07:17.841Z	Success: Finished initializing build environment
-2025-08-22T17:07:19.967Z	Cloning repository...
-2025-08-22T17:07:21.795Z	Restoring from dependencies cache
-2025-08-22T17:07:21.799Z	Restoring from build output cache
-2025-08-22T17:07:25.273Z	Detected the following tools from environment: nodejs@23.11.1, pnpm@10.11.1
-2025-08-22T17:07:25.274Z	Installing nodejs 23.11.1
-2025-08-22T17:07:40.139Z	Installing project dependencies: pnpm install --frozen-lockfile
-2025-08-22T17:07:41.338Z	Lockfile is up to date, resolution step is skipped
-2025-08-22T17:07:41.678Z	Progress: resolved 1, reused 0, downloaded 0, added 0
-2025-08-22T17:07:41.997Z	Packages: +1162
-2025-08-22T17:07:41.998Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2025-08-22T17:07:42.685Z	Progress: resolved 1162, reused 0, downloaded 0, added 0
-2025-08-22T17:07:48.769Z	Progress: resolved 1162, reused 0, downloaded 1, added 0
-2025-08-22T17:07:50.926Z	Progress: resolved 1162, reused 0, downloaded 2, added 0
-2025-08-22T17:07:51.930Z	Progress: resolved 1162, reused 0, downloaded 43, added 8
-2025-08-22T17:07:52.927Z	Progress: resolved 1162, reused 0, downloaded 64, added 27
-2025-08-22T17:07:53.928Z	Progress: resolved 1162, reused 0, downloaded 99, added 99
-2025-08-22T17:07:54.929Z	Progress: resolved 1162, reused 0, downloaded 128, added 127
-2025-08-22T17:07:55.931Z	Progress: resolved 1162, reused 0, downloaded 150, added 150
-2025-08-22T17:07:56.934Z	Progress: resolved 1162, reused 0, downloaded 179, added 177
-2025-08-22T17:07:57.940Z	Progress: resolved 1162, reused 0, downloaded 231, added 210
-2025-08-22T17:07:58.941Z	Progress: resolved 1162, reused 0, downloaded 246, added 214
-2025-08-22T17:08:02.559Z	Progress: resolved 1162, reused 0, downloaded 247, added 214
-2025-08-22T17:08:03.562Z	Progress: resolved 1162, reused 0, downloaded 312, added 246
-2025-08-22T17:08:04.562Z	Progress: resolved 1162, reused 0, downloaded 356, added 356
-2025-08-22T17:08:05.562Z	Progress: resolved 1162, reused 0, downloaded 392, added 385
-2025-08-22T17:08:06.567Z	Progress: resolved 1162, reused 0, downloaded 488, added 437
-2025-08-22T17:08:07.567Z	Progress: resolved 1162, reused 0, downloaded 506, added 444
-2025-08-22T17:08:09.446Z	Progress: resolved 1162, reused 0, downloaded 507, added 444
-2025-08-22T17:08:10.477Z	Progress: resolved 1162, reused 0, downloaded 564, added 468
-2025-08-22T17:08:11.474Z	Progress: resolved 1162, reused 0, downloaded 575, added 471
-2025-08-22T17:08:12.481Z	Progress: resolved 1162, reused 0, downloaded 581, added 472
-2025-08-22T17:08:13.476Z	Progress: resolved 1162, reused 0, downloaded 643, added 530
-2025-08-22T17:08:14.517Z	Progress: resolved 1162, reused 0, downloaded 698, added 565
-2025-08-22T17:08:15.518Z	Progress: resolved 1162, reused 0, downloaded 700, added 565
-2025-08-22T17:08:16.520Z	Progress: resolved 1162, reused 0, downloaded 706, added 567
-2025-08-22T17:08:17.521Z	Progress: resolved 1162, reused 0, downloaded 709, added 569
-2025-08-22T17:08:18.522Z	Progress: resolved 1162, reused 0, downloaded 714, added 569
-2025-08-22T17:08:22.311Z	Progress: resolved 1162, reused 0, downloaded 715, added 569
-2025-08-22T17:08:23.324Z	Progress: resolved 1162, reused 0, downloaded 749, added 581
-2025-08-22T17:08:24.346Z	Progress: resolved 1162, reused 0, downloaded 762, added 586
-2025-08-22T17:08:25.343Z	Progress: resolved 1162, reused 0, downloaded 776, added 590
-2025-08-22T17:08:25.343Z	Progress: resolved 1162, reused 0, downloaded 776, added 590
-2025-08-22T17:08:26.344Z	Progress: resolved 1162, reused 0, downloaded 779, added 592
-2025-08-22T17:08:27.425Z	Progress: resolved 1162, reused 0, downloaded 780, added 592
-2025-08-22T17:08:28.419Z	Progress: resolved 1162, reused 0, downloaded 783, added 593
-2025-08-22T17:08:29.419Z	Progress: resolved 1162, reused 0, downloaded 795, added 700
-2025-08-22T17:08:30.421Z	Progress: resolved 1162, reused 0, downloaded 795, added 749
-2025-08-22T17:08:31.422Z	Progress: resolved 1162, reused 0, downloaded 795, added 752
-2025-08-22T17:08:35.999Z	Progress: resolved 1162, reused 0, downloaded 795, added 753
-2025-08-22T17:08:37.005Z	Progress: resolved 1162, reused 0, downloaded 835, added 768
-2025-08-22T17:08:38.007Z	Progress: resolved 1162, reused 0, downloaded 899, added 800
-2025-08-22T17:08:39.005Z	Progress: resolved 1162, reused 0, downloaded 942, added 870
-2025-08-22T17:08:40.009Z	Progress: resolved 1162, reused 0, downloaded 1016, added 903
-2025-08-22T17:08:41.018Z	Progress: resolved 1162, reused 0, downloaded 1062, added 919
-2025-08-22T17:08:42.738Z	Progress: resolved 1162, reused 0, downloaded 1063, added 919
-2025-08-22T17:08:43.741Z	Progress: resolved 1162, reused 0, downloaded 1071, added 923
-2025-08-22T17:08:45.561Z	Progress: resolved 1162, reused 0, downloaded 1072, added 923
-2025-08-22T17:08:46.557Z	Progress: resolved 1162, reused 0, downloaded 1076, added 923
-2025-08-22T17:08:47.562Z	Progress: resolved 1162, reused 0, downloaded 1077, added 923
-2025-08-22T17:08:50.191Z	Progress: resolved 1162, reused 0, downloaded 1078, added 923
-2025-08-22T17:08:51.201Z	Progress: resolved 1162, reused 0, downloaded 1131, added 994
-2025-08-22T17:08:52.203Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1144
-2025-08-22T17:08:52.230Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1162, done
-2025-08-22T17:08:53.377Z	
-2025-08-22T17:08:53.378Z	dependencies:
-2025-08-22T17:08:53.378Z	+ @heroicons/react 2.2.0
-2025-08-22T17:08:53.378Z	+ @heroui/react 2.8.0-beta.6
-2025-08-22T17:08:53.378Z	+ @hookform/resolvers 3.10.0
-2025-08-22T17:08:53.379Z	+ @icons-pack/react-simple-icons 11.2.0
-2025-08-22T17:08:53.379Z	+ @marsidev/react-turnstile 1.1.0
-2025-08-22T17:08:53.379Z	+ @opennextjs/cloudflare 1.6.5
-2025-08-22T17:08:53.380Z	+ @oslojs/encoding 1.1.0
-2025-08-22T17:08:53.381Z	+ @paralleldrive/cuid2 2.2.2
-2025-08-22T17:08:53.381Z	+ @radix-ui/react-accordion 1.2.11
-2025-08-22T17:08:53.381Z	+ @radix-ui/react-avatar 1.1.10
-2025-08-22T17:08:53.381Z	+ @radix-ui/react-collapsible 1.1.11
-2025-08-22T17:08:53.382Z	+ @radix-ui/react-dialog 1.1.14
-2025-08-22T17:08:53.382Z	+ @radix-ui/react-dropdown-menu 2.1.15
-2025-08-22T17:08:53.382Z	+ @radix-ui/react-label 2.1.7
-2025-08-22T17:08:53.383Z	+ @radix-ui/react-select 2.2.5
-2025-08-22T17:08:53.383Z	+ @radix-ui/react-separator 1.1.7
-2025-08-22T17:08:53.383Z	+ @radix-ui/react-slot 1.2.3
-2025-08-22T17:08:53.383Z	+ @radix-ui/react-tooltip 1.2.7
-2025-08-22T17:08:53.383Z	+ @react-email/components 0.0.32
-2025-08-22T17:08:53.384Z	+ @react-email/render 1.0.4
-2025-08-22T17:08:53.384Z	+ @simplewebauthn/browser 13.1.0
-2025-08-22T17:08:53.384Z	+ @simplewebauthn/server 13.1.1
-2025-08-22T17:08:53.384Z	+ @stripe/react-stripe-js 3.7.0
-2025-08-22T17:08:53.385Z	+ @stripe/stripe-js 6.1.0
-2025-08-22T17:08:53.385Z	+ @tanstack/react-table 8.21.3
-2025-08-22T17:08:53.385Z	+ arctic 3.7.0
-2025-08-22T17:08:53.385Z	+ class-variance-authority 0.7.1
-2025-08-22T17:08:53.386Z	+ clsx 2.1.1
-2025-08-22T17:08:53.386Z	+ date-fns 4.1.0
-2025-08-22T17:08:53.387Z	+ drizzle-orm 0.39.3
-2025-08-22T17:08:53.389Z	+ ipaddr.js 2.2.0
-2025-08-22T17:08:53.389Z	+ lucide-react 0.471.2
-2025-08-22T17:08:53.389Z	+ motion 11.18.2
-2025-08-22T17:08:53.389Z	+ ms 2.1.3
-2025-08-22T17:08:53.389Z	+ next 15.3.5
-2025-08-22T17:08:53.389Z	+ next-themes 0.4.6
-2025-08-22T17:08:53.389Z	+ nextjs-toploader 3.8.16
-2025-08-22T17:08:53.389Z	+ nuqs 2.4.3
-2025-08-22T17:08:53.389Z	+ react 19.1.0
-2025-08-22T17:08:53.389Z	+ react-dom 19.1.0
-2025-08-22T17:08:53.389Z	+ react-hook-form 7.58.1
-2025-08-22T17:08:53.389Z	+ react-turnstile 1.1.4
-2025-08-22T17:08:53.390Z	+ remeda 2.23.0
-2025-08-22T17:08:53.390Z	+ slugify 1.6.6
-2025-08-22T17:08:53.390Z	+ sonner 1.7.4
-2025-08-22T17:08:53.390Z	+ stripe 17.7.0
-2025-08-22T17:08:53.391Z	+ tailwind-merge 2.6.0
-2025-08-22T17:08:53.391Z	+ ua-parser-js 2.0.3
-2025-08-22T17:08:53.391Z	+ usehooks-ts 3.1.1
-2025-08-22T17:08:53.391Z	+ zod 3.25.67
-2025-08-22T17:08:53.391Z	+ zsa 0.6.0
-2025-08-22T17:08:53.391Z	+ zsa-react 0.2.3
-2025-08-22T17:08:53.392Z	+ zustand 5.0.5
-2025-08-22T17:08:53.392Z	
-2025-08-22T17:08:53.397Z	devDependencies:
-2025-08-22T17:08:53.397Z	+ @eslint/eslintrc 3.3.1
-2025-08-22T17:08:53.397Z	+ @next/bundle-analyzer 15.3.4
-2025-08-22T17:08:53.397Z	+ @simplewebauthn/types 12.0.0
-2025-08-22T17:08:53.398Z	+ @tailwindcss/postcss 4.1.7
-2025-08-22T17:08:53.398Z	+ @tailwindcss/typography 0.5.16
-2025-08-22T17:08:53.398Z	+ @types/ms 0.7.34
-2025-08-22T17:08:53.398Z	+ @types/node 20.19.9
-2025-08-22T17:08:53.398Z	+ @types/react 19.1.8
-2025-08-22T17:08:53.399Z	+ @types/react-dom 19.1.6
-2025-08-22T17:08:53.399Z	+ drizzle-kit 0.30.6
-2025-08-22T17:08:53.399Z	+ eslint 9.29.0
-2025-08-22T17:08:53.399Z	+ eslint-config-next 15.3.5
-2025-08-22T17:08:53.399Z	+ postcss 8.5.6
-2025-08-22T17:08:53.399Z	+ react-email 3.0.6
-2025-08-22T17:08:53.399Z	+ tailwindcss 4.1.7
-2025-08-22T17:08:53.400Z	+ tw-animate-css 1.3.0
-2025-08-22T17:08:53.400Z	+ typescript 5.8.3
-2025-08-22T17:08:53.400Z	+ wrangler 4.28.0
-2025-08-22T17:08:53.401Z	
-2025-08-22T17:08:53.401Z	╭ Warning ─────────────────────────────────────────────────────────────────────╮
-2025-08-22T17:08:53.401Z	│                                                                              │
-2025-08-22T17:08:53.401Z	│   Ignored build scripts: @heroui/shared-utils, @tailwindcss/oxide,           │
-2025-08-22T17:08:53.402Z	│   esbuild, sharp, unrs-resolver, workerd.                                    │
-2025-08-22T17:08:53.402Z	│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
-2025-08-22T17:08:53.402Z	│   to run scripts.                                                            │
-2025-08-22T17:08:53.402Z	│                                                                              │
-2025-08-22T17:08:53.403Z	╰──────────────────────────────────────────────────────────────────────────────╯
-2025-08-22T17:08:53.403Z	
-2025-08-22T17:08:53.540Z	Done in 1m 13.2s using pnpm v10.11.1
-2025-08-22T17:08:53.657Z	Executing user build command: pnpm run build
-2025-08-22T17:08:54.496Z	
-2025-08-22T17:08:54.496Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
-2025-08-22T17:08:54.496Z	> next build
-2025-08-22T17:08:54.496Z	
-2025-08-22T17:09:42.285Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
-2025-08-22T17:09:42.299Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
-2025-08-22T17:09:42.305Z	This information is used to shape Next.js' roadmap and prioritize features.
-2025-08-22T17:09:42.305Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-2025-08-22T17:09:42.305Z	https://nextjs.org/telemetry
-2025-08-22T17:09:42.305Z	
-2025-08-22T17:09:42.455Z	   ▲ Next.js 15.3.5
-2025-08-22T17:09:42.455Z	   - Experiments (use with caution):
-2025-08-22T17:09:42.456Z	     ✓ typedRoutes
-2025-08-22T17:09:42.457Z	
-2025-08-22T17:09:44.126Z	▲ [WARNING] 				You have defined bindings to the following internal Durable Objects:
-2025-08-22T17:09:44.126Z	
-2025-08-22T17:09:44.127Z	  				- {"name":"NEXT_CACHE_DO_QUEUE","class_name":"DOQueueHandler"}
-2025-08-22T17:09:44.127Z	  				These will not work in local development, but they should work in production.
-2025-08-22T17:09:44.127Z	  
-2025-08-22T17:09:44.127Z	  				If you want to develop these locally, you can define your DO in a separate Worker, with a separate configuration file.
-2025-08-22T17:09:44.127Z	  				For detailed instructions, refer to the Durable Objects section here: https://developers.cloudflare.com/workers/wrangler/api#supported-bindings
-2025-08-22T17:09:44.127Z	
-2025-08-22T17:09:44.127Z	
-2025-08-22T17:09:44.221Z	   Creating an optimized production build ...
-2025-08-22T17:10:02.566Z	workerd/server/server.c++:1874: warning: A DurableObjectNamespace in the config referenced the class "DOQueueHandler", but no such Durable Object class is exported from the worker. Please make sure the class name matches, it is exported, and the class extends 'DurableObject'. Attempts to call to this Durable Object class will fail at runtime, but historically this was not a startup-time error. Future versions of workerd may make this a startup-time error.
-2025-08-22T17:10:04.920Z	▲ [WARNING] 				You have defined bindings to the following internal Durable Objects:
-2025-08-22T17:10:04.920Z	
-2025-08-22T17:10:04.921Z	  				- {"name":"NEXT_CACHE_DO_QUEUE","class_name":"DOQueueHandler"}
-2025-08-22T17:10:04.921Z	  				These will not work in local development, but they should work in production.
-2025-08-22T17:10:04.921Z	  
-2025-08-22T17:10:04.921Z	  				If you want to develop these locally, you can define your DO in a separate Worker, with a separate configuration file.
-2025-08-22T17:10:04.921Z	  				For detailed instructions, refer to the Durable Objects section here: https://developers.cloudflare.com/workers/wrangler/api#supported-bindings
-2025-08-22T17:10:04.921Z	
-2025-08-22T17:10:04.921Z	
-2025-08-22T17:10:05.193Z	workerd/server/server.c++:1874: warning: A DurableObjectNamespace in the config referenced the class "DOQueueHandler", but no such Durable Object class is exported from the worker. Please make sure the class name matches, it is exported, and the class extends 'DurableObject'. Attempts to call to this Durable Object class will fail at runtime, but historically this was not a startup-time error. Future versions of workerd may make this a startup-time error.
-2025-08-22T17:11:25.627Z	▲ [WARNING] 				You have defined bindings to the following internal Durable Objects:
-2025-08-22T17:11:25.627Z	
-2025-08-22T17:11:25.627Z	  				- {"name":"NEXT_CACHE_DO_QUEUE","class_name":"DOQueueHandler"}
-2025-08-22T17:11:25.627Z	  				These will not work in local development, but they should work in production.
-2025-08-22T17:11:25.628Z	  
-2025-08-22T17:11:25.628Z	  				If you want to develop these locally, you can define your DO in a separate Worker, with a separate configuration file.
-2025-08-22T17:11:25.628Z	  				For detailed instructions, refer to the Durable Objects section here: https://developers.cloudflare.com/workers/wrangler/api#supported-bindings
-2025-08-22T17:11:25.628Z	
-2025-08-22T17:11:25.628Z	
-2025-08-22T17:11:29.530Z	▲ [WARNING] 				You have defined bindings to the following internal Durable Objects:
-2025-08-22T17:11:29.530Z	
-2025-08-22T17:11:29.531Z	  				- {"name":"NEXT_CACHE_DO_QUEUE","class_name":"DOQueueHandler"}
-2025-08-22T17:11:29.531Z	  				These will not work in local development, but they should work in production.
-2025-08-22T17:11:29.531Z	  
-2025-08-22T17:11:29.531Z	  				If you want to develop these locally, you can define your DO in a separate Worker, with a separate configuration file.
-2025-08-22T17:11:29.531Z	  				For detailed instructions, refer to the Durable Objects section here: https://developers.cloudflare.com/workers/wrangler/api#supported-bindings
-2025-08-22T17:11:29.531Z	
-2025-08-22T17:11:29.531Z	
-2025-08-22T17:11:29.842Z	workerd/server/server.c++:1874: warning: A DurableObjectNamespace in the config referenced the class "DOQueueHandler", but no such Durable Object class is exported from the worker. Please make sure the class name matches, it is exported, and the class extends 'DurableObject'. Attempts to call to this Durable Object class will fail at runtime, but historically this was not a startup-time error. Future versions of workerd may make this a startup-time error.
-2025-08-22T17:11:37.242Z	(node:2320) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
-2025-08-22T17:11:37.242Z	(Use `node --trace-warnings ...` to show where the warning was created)
-2025-08-22T17:11:37.326Z	(node:2320) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
-2025-08-22T17:11:37.327Z	(Use `node --trace-warnings ...` to show where the warning was created)
-2025-08-22T17:11:37.329Z	(node:2320) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///opt/buildhome/repo/hero.ts?id=1755882697113 is not specified and it doesn't parse as CommonJS.
-2025-08-22T17:11:37.330Z	Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-2025-08-22T17:11:37.330Z	To eliminate this warning, add "type": "module" to /opt/buildhome/repo/package.json.
-2025-08-22T17:12:10.735Z	 ✓ Compiled successfully in 2.0min
-2025-08-22T17:12:10.753Z	   Linting and checking validity of types ...
-2025-08-22T17:12:38.557Z	   Collecting page data ...
-2025-08-22T17:12:46.782Z	   Generating static pages (0/5) ...
-2025-08-22T17:12:47.677Z	   Generating static pages (1/5) 
-2025-08-22T17:12:47.915Z	   Generating static pages (2/5) 
-2025-08-22T17:12:47.916Z	   Generating static pages (3/5) 
-2025-08-22T17:12:47.917Z	 ✓ Generating static pages (5/5)
-2025-08-22T17:12:49.140Z	   Finalizing page optimization ...
-2025-08-22T17:12:49.141Z	   Collecting build traces ...
-2025-08-22T17:13:04.407Z	
-2025-08-22T17:13:04.412Z	Route (app)                                 Size  First Load JS
-2025-08-22T17:13:04.413Z	┌ ƒ /                                    3.45 kB         156 kB
-2025-08-22T17:13:04.413Z	├ ƒ /_not-found                            987 B         103 kB
-2025-08-22T17:13:04.413Z	├ ƒ /admin                                 24 kB         198 kB
-2025-08-22T17:13:04.413Z	├ ƒ /admin/users/[userId]                2.13 kB         143 kB
-2025-08-22T17:13:04.413Z	├ ƒ /api/get-session                       146 B         102 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard                             889 B         142 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard/billing                   12.1 kB         175 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard/marketplace               6.78 kB         543 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard/teams                     2.17 kB         156 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard/teams/[teamSlug]          4.11 kB         517 kB
-2025-08-22T17:13:04.413Z	├ ƒ /dashboard/teams/create              2.39 kB         178 kB
-2025-08-22T17:13:04.413Z	├ ƒ /forgot-password                        4 kB         150 kB
-2025-08-22T17:13:04.413Z	├ ƒ /privacy                               191 B         106 kB
-2025-08-22T17:13:04.414Z	├ ƒ /reset-password                      3.16 kB         148 kB
-2025-08-22T17:13:04.414Z	├ ƒ /settings                              152 B         148 kB
-2025-08-22T17:13:04.414Z	├ ƒ /settings/[...segment]                 152 B         148 kB
-2025-08-22T17:13:04.414Z	├ ƒ /settings/security                   4.37 kB         144 kB
-2025-08-22T17:13:04.414Z	├ ƒ /settings/sessions                   3.15 kB         140 kB
-2025-08-22T17:13:04.414Z	├ ƒ /sign-in                              5.5 kB         156 kB
-2025-08-22T17:13:04.414Z	├ ƒ /sign-up                             6.04 kB         170 kB
-2025-08-22T17:13:04.414Z	├ ƒ /sso/google                            146 B         102 kB
-2025-08-22T17:13:04.414Z	├ ƒ /sso/google/callback                 2.92 kB         137 kB
-2025-08-22T17:13:04.414Z	├ ƒ /team-invite                         2.95 kB         138 kB
-2025-08-22T17:13:04.414Z	├ ƒ /terms                                 191 B         106 kB
-2025-08-22T17:13:04.414Z	└ ƒ /verify-email                        2.88 kB         137 kB
-2025-08-22T17:13:04.415Z	+ First Load JS shared by all             102 kB
-2025-08-22T17:13:04.415Z	  ├ chunks/7149-d9edecf2a618726b.js      46.7 kB
-2025-08-22T17:13:04.415Z	  ├ chunks/743d815b-265dfb9f54b855c3.js  53.2 kB
-2025-08-22T17:13:04.415Z	  └ other shared chunks (total)          2.09 kB
-2025-08-22T17:13:04.416Z	
-2025-08-22T17:13:04.416Z	
-2025-08-22T17:13:04.416Z	ƒ  (Dynamic)  server-rendered on demand
-2025-08-22T17:13:04.416Z	
-2025-08-22T17:13:04.521Z	Success: Build command completed
-2025-08-22T17:13:04.523Z	Executing user deploy command: npx wrangler deploy
-2025-08-22T17:13:06.904Z	
-2025-08-22T17:13:06.904Z	 ⛅️ wrangler 4.28.0 (update available 4.32.0)
-2025-08-22T17:13:06.905Z	─────────────────────────────────────────────
-2025-08-22T17:13:06.922Z	
-2025-08-22T17:13:07.034Z	✘ [ERROR] The entry-point file at ".open-next/worker.js" was not found.
-2025-08-22T17:13:07.035Z	
-2025-08-22T17:13:07.035Z	
-2025-08-22T17:13:07.036Z	
-2025-08-22T17:13:07.037Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
-2025-08-22T17:13:07.069Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2025-08-22_17-13-06_011.log"
-2025-08-22T17:13:07.274Z	Failed: error occurred while running deploy command
+2025-08-22T17:26:25.743Z	Initializing build environment...
+2025-08-22T17:26:33.180Z	Success: Finished initializing build environment
+2025-08-22T17:26:33.416Z	Cloning repository...
+2025-08-22T17:26:36.400Z	Restoring from dependencies cache
+2025-08-22T17:26:36.403Z	Restoring from build output cache
+2025-08-22T17:26:38.598Z	Detected the following tools from environment: nodejs@23.11.1, pnpm@10.11.1
+2025-08-22T17:26:38.598Z	Installing nodejs 23.11.1
+2025-08-22T17:26:25.743Z	Initializing build environment...
+2025-08-22T17:26:33.180Z	Success: Finished initializing build environment
+2025-08-22T17:26:33.416Z	Cloning repository...
+2025-08-22T17:26:36.400Z	Restoring from dependencies cache
+2025-08-22T17:26:36.403Z	Restoring from build output cache
+2025-08-22T17:26:38.598Z	Detected the following tools from environment: nodejs@23.11.1, pnpm@10.11.1
+2025-08-22T17:26:38.598Z	Installing nodejs 23.11.1
+2025-08-22T17:26:51.179Z	Installing project dependencies: pnpm install --frozen-lockfile
+2025-08-22T17:26:51.883Z	Lockfile is up to date, resolution step is skipped
+2025-08-22T17:26:52.033Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-08-22T17:26:52.256Z	Packages: +1162
+2025-08-22T17:26:52.256Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-22T17:26:53.033Z	Progress: resolved 1162, reused 0, downloaded 0, added 0
+2025-08-22T17:26:57.294Z	Progress: resolved 1162, reused 0, downloaded 1, added 0
+2025-08-22T17:26:58.298Z	Progress: resolved 1162, reused 0, downloaded 42, added 0
+2025-08-22T17:26:59.301Z	Progress: resolved 1162, reused 0, downloaded 103, added 103
+2025-08-22T17:27:00.301Z	Progress: resolved 1162, reused 0, downloaded 162, added 162
+2025-08-22T17:27:01.301Z	Progress: resolved 1162, reused 0, downloaded 260, added 206
+2025-08-22T17:27:02.303Z	Progress: resolved 1162, reused 0, downloaded 299, added 210
+2025-08-22T17:27:03.672Z	Progress: resolved 1162, reused 0, downloaded 300, added 210
+2025-08-22T17:27:04.672Z	Progress: resolved 1162, reused 0, downloaded 463, added 291
+2025-08-22T17:27:05.673Z	Progress: resolved 1162, reused 0, downloaded 517, added 298
+2025-08-22T17:27:06.673Z	Progress: resolved 1162, reused 0, downloaded 544, added 299
+2025-08-22T17:27:07.674Z	Progress: resolved 1162, reused 0, downloaded 625, added 310
+2025-08-22T17:27:08.674Z	Progress: resolved 1162, reused 0, downloaded 645, added 310
+2025-08-22T17:27:09.674Z	Progress: resolved 1162, reused 0, downloaded 723, added 320
+2025-08-22T17:27:10.675Z	Progress: resolved 1162, reused 0, downloaded 725, added 322
+2025-08-22T17:27:11.674Z	Progress: resolved 1162, reused 0, downloaded 734, added 322
+2025-08-22T17:27:12.783Z	Progress: resolved 1162, reused 0, downloaded 744, added 322
+2025-08-22T17:27:14.322Z	Progress: resolved 1162, reused 0, downloaded 745, added 322
+2025-08-22T17:27:15.324Z	Progress: resolved 1162, reused 0, downloaded 788, added 326
+2025-08-22T17:27:16.324Z	Progress: resolved 1162, reused 0, downloaded 793, added 326
+2025-08-22T17:27:17.516Z	Progress: resolved 1162, reused 0, downloaded 794, added 326
+2025-08-22T17:27:18.513Z	Progress: resolved 1162, reused 0, downloaded 877, added 334
+2025-08-22T17:27:19.515Z	Progress: resolved 1162, reused 0, downloaded 999, added 349
+2025-08-22T17:27:20.556Z	Progress: resolved 1162, reused 0, downloaded 1106, added 359
+2025-08-22T17:27:21.683Z	Progress: resolved 1162, reused 0, downloaded 1107, added 359
+2025-08-22T17:27:22.683Z	Progress: resolved 1162, reused 0, downloaded 1111, added 360
+2025-08-22T17:27:23.684Z	Progress: resolved 1162, reused 0, downloaded 1149, added 363
+2025-08-22T17:27:24.688Z	Progress: resolved 1162, reused 0, downloaded 1150, added 363
+2025-08-22T17:27:25.689Z	Progress: resolved 1162, reused 0, downloaded 1151, added 363
+2025-08-22T17:27:26.689Z	Progress: resolved 1162, reused 0, downloaded 1162, added 614
+2025-08-22T17:27:27.689Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1024
+2025-08-22T17:27:28.059Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1162, done
+2025-08-22T17:27:27.689Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1024
+2025-08-22T17:27:28.059Z	Progress: resolved 1162, reused 0, downloaded 1162, added 1162, done
+2025-08-22T17:27:28.678Z	
+2025-08-22T17:27:28.678Z	dependencies:
+2025-08-22T17:27:28.679Z	+ @heroicons/react 2.2.0
+2025-08-22T17:27:28.679Z	+ @heroui/react 2.8.0-beta.6
+2025-08-22T17:27:28.679Z	+ @hookform/resolvers 3.10.0
+2025-08-22T17:27:28.679Z	+ @icons-pack/react-simple-icons 11.2.0
+2025-08-22T17:27:28.680Z	+ @marsidev/react-turnstile 1.1.0
+2025-08-22T17:27:28.680Z	+ @opennextjs/cloudflare 1.6.5
+2025-08-22T17:27:28.680Z	+ @oslojs/encoding 1.1.0
+2025-08-22T17:27:28.680Z	+ @paralleldrive/cuid2 2.2.2
+2025-08-22T17:27:28.680Z	+ @radix-ui/react-accordion 1.2.11
+2025-08-22T17:27:28.680Z	+ @radix-ui/react-avatar 1.1.10
+2025-08-22T17:27:28.681Z	+ @radix-ui/react-collapsible 1.1.11
+2025-08-22T17:27:28.681Z	+ @radix-ui/react-dialog 1.1.14
+2025-08-22T17:27:28.682Z	+ @radix-ui/react-dropdown-menu 2.1.15
+2025-08-22T17:27:28.682Z	+ @radix-ui/react-label 2.1.7
+2025-08-22T17:27:28.683Z	+ @radix-ui/react-select 2.2.5
+2025-08-22T17:27:28.684Z	+ @radix-ui/react-separator 1.1.7
+2025-08-22T17:27:28.684Z	+ @radix-ui/react-slot 1.2.3
+2025-08-22T17:27:28.684Z	+ @radix-ui/react-tooltip 1.2.7
+2025-08-22T17:27:28.684Z	+ @react-email/components 0.0.32
+2025-08-22T17:27:28.684Z	+ @react-email/render 1.0.4
+2025-08-22T17:27:28.684Z	+ @simplewebauthn/browser 13.1.0
+2025-08-22T17:27:28.685Z	+ @simplewebauthn/server 13.1.1
+2025-08-22T17:27:28.685Z	+ @stripe/react-stripe-js 3.7.0
+2025-08-22T17:27:28.685Z	+ @stripe/stripe-js 6.1.0
+2025-08-22T17:27:28.685Z	+ @tanstack/react-table 8.21.3
+2025-08-22T17:27:28.686Z	+ arctic 3.7.0
+2025-08-22T17:27:28.687Z	+ class-variance-authority 0.7.1
+2025-08-22T17:27:28.687Z	+ clsx 2.1.1
+2025-08-22T17:27:28.687Z	+ date-fns 4.1.0
+2025-08-22T17:27:28.688Z	+ drizzle-orm 0.39.3
+2025-08-22T17:27:28.688Z	+ ipaddr.js 2.2.0
+2025-08-22T17:27:28.690Z	+ lucide-react 0.471.2
+2025-08-22T17:27:28.690Z	+ motion 11.18.2
+2025-08-22T17:27:28.690Z	+ ms 2.1.3
+2025-08-22T17:27:28.690Z	+ next 15.3.5
+2025-08-22T17:27:28.691Z	+ next-themes 0.4.6
+2025-08-22T17:27:28.691Z	+ nextjs-toploader 3.8.16
+2025-08-22T17:27:28.691Z	+ nuqs 2.4.3
+2025-08-22T17:27:28.691Z	+ react 19.1.0
+2025-08-22T17:27:28.692Z	+ react-dom 19.1.0
+2025-08-22T17:27:28.692Z	+ react-hook-form 7.58.1
+2025-08-22T17:27:28.692Z	+ react-turnstile 1.1.4
+2025-08-22T17:27:28.692Z	+ remeda 2.23.0
+2025-08-22T17:27:28.692Z	+ slugify 1.6.6
+2025-08-22T17:27:28.692Z	+ sonner 1.7.4
+2025-08-22T17:27:28.692Z	+ stripe 17.7.0
+2025-08-22T17:27:28.693Z	+ tailwind-merge 2.6.0
+2025-08-22T17:27:28.693Z	+ ua-parser-js 2.0.3
+2025-08-22T17:27:28.695Z	+ usehooks-ts 3.1.1
+2025-08-22T17:27:28.695Z	+ zod 3.25.67
+2025-08-22T17:27:28.695Z	+ zsa 0.6.0
+2025-08-22T17:27:28.696Z	+ zsa-react 0.2.3
+2025-08-22T17:27:28.696Z	+ zustand 5.0.5
+2025-08-22T17:27:28.696Z	
+2025-08-22T17:27:28.696Z	devDependencies:
+2025-08-22T17:27:28.696Z	+ @eslint/eslintrc 3.3.1
+2025-08-22T17:27:28.696Z	+ @next/bundle-analyzer 15.3.4
+2025-08-22T17:27:28.696Z	+ @simplewebauthn/types 12.0.0
+2025-08-22T17:27:28.697Z	+ @tailwindcss/postcss 4.1.7
+2025-08-22T17:27:28.697Z	+ @tailwindcss/typography 0.5.16
+2025-08-22T17:27:28.697Z	+ @types/ms 0.7.34
+2025-08-22T17:27:28.699Z	+ @types/node 20.19.9
+2025-08-22T17:27:28.699Z	+ @types/react 19.1.8
+2025-08-22T17:27:28.699Z	+ @types/react-dom 19.1.6
+2025-08-22T17:27:28.699Z	+ drizzle-kit 0.30.6
+2025-08-22T17:27:28.700Z	+ eslint 9.29.0
+2025-08-22T17:27:28.700Z	+ eslint-config-next 15.3.5
+2025-08-22T17:27:28.700Z	+ postcss 8.5.6
+2025-08-22T17:27:28.700Z	+ react-email 3.0.6
+2025-08-22T17:27:28.701Z	+ tailwindcss 4.1.7
+2025-08-22T17:27:28.701Z	+ tw-animate-css 1.3.0
+2025-08-22T17:27:28.701Z	+ typescript 5.8.3
+2025-08-22T17:27:28.701Z	+ wrangler 4.28.0
+2025-08-22T17:27:28.702Z	
+2025-08-22T17:27:45.969Z	╭ Warning ─────────────────────────────────────────────────────────────────────╮
+2025-08-22T17:27:45.970Z	│                                                                              │
+2025-08-22T17:27:45.970Z	│   Ignored build scripts: @heroui/shared-utils, @tailwindcss/oxide,           │
+2025-08-22T17:27:45.970Z	│   esbuild, sharp, unrs-resolver, workerd.                                    │
+2025-08-22T17:27:45.970Z	│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+2025-08-22T17:27:45.970Z	│   to run scripts.                                                            │
+2025-08-22T17:27:45.970Z	│                                                                              │
+2025-08-22T17:27:45.970Z	╰──────────────────────────────────────────────────────────────────────────────╯
+2025-08-22T17:27:45.970Z	
+2025-08-22T17:27:45.977Z	Done in 37.4s using pnpm v10.11.1
+2025-08-22T17:27:45.978Z	Executing user build command: pnpm run build
+2025-08-22T17:27:46.453Z	
+2025-08-22T17:27:46.453Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:27:46.454Z	> opennextjs-cloudflare build
+2025-08-22T17:27:46.454Z	
+2025-08-22T17:28:08.930Z	
+2025-08-22T17:28:08.930Z	┌─────────────────────────────┐
+2025-08-22T17:28:08.930Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:08.930Z	└─────────────────────────────┘
+2025-08-22T17:28:08.930Z	
+2025-08-22T17:28:09.057Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:09.058Z	Next.js version : 15.3.5
+2025-08-22T17:28:09.058Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:09.058Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:09.059Z	
+2025-08-22T17:28:09.059Z	┌─────────────────────────────────┐
+2025-08-22T17:28:09.059Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:09.059Z	└─────────────────────────────────┘
+2025-08-22T17:28:09.059Z	
+2025-08-22T17:28:09.443Z	
+2025-08-22T17:28:09.443Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:09.443Z	> opennextjs-cloudflare build
+2025-08-22T17:28:09.443Z	
+2025-08-22T17:28:10.859Z	
+2025-08-22T17:28:10.859Z	┌─────────────────────────────┐
+2025-08-22T17:28:10.859Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:10.859Z	└─────────────────────────────┘
+2025-08-22T17:28:10.859Z	
+2025-08-22T17:28:10.962Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:10.962Z	Next.js version : 15.3.5
+2025-08-22T17:28:10.962Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:10.963Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:10.963Z	
+2025-08-22T17:28:10.963Z	┌─────────────────────────────────┐
+2025-08-22T17:28:10.963Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:10.963Z	└─────────────────────────────────┘
+2025-08-22T17:28:10.963Z	
+2025-08-22T17:28:11.347Z	
+2025-08-22T17:28:11.349Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:11.349Z	> opennextjs-cloudflare build
+2025-08-22T17:28:11.349Z	
+2025-08-22T17:28:12.743Z	
+2025-08-22T17:28:12.743Z	┌─────────────────────────────┐
+2025-08-22T17:28:12.743Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:12.743Z	└─────────────────────────────┘
+2025-08-22T17:28:12.743Z	
+2025-08-22T17:28:12.840Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:12.844Z	Next.js version : 15.3.5
+2025-08-22T17:28:12.844Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:12.844Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:12.844Z	
+2025-08-22T17:28:12.844Z	┌─────────────────────────────────┐
+2025-08-22T17:28:12.845Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:12.845Z	└─────────────────────────────────┘
+2025-08-22T17:28:12.845Z	
+2025-08-22T17:28:13.222Z	
+2025-08-22T17:28:13.222Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:13.222Z	> opennextjs-cloudflare build
+2025-08-22T17:28:13.222Z	
+2025-08-22T17:28:14.574Z	
+2025-08-22T17:28:14.574Z	┌─────────────────────────────┐
+2025-08-22T17:28:14.574Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:14.575Z	└─────────────────────────────┘
+2025-08-22T17:28:14.575Z	
+2025-08-22T17:28:14.679Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:14.681Z	Next.js version : 15.3.5
+2025-08-22T17:28:14.681Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:14.681Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:14.681Z	
+2025-08-22T17:28:14.681Z	┌─────────────────────────────────┐
+2025-08-22T17:28:14.681Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:14.681Z	└─────────────────────────────────┘
+2025-08-22T17:28:14.681Z	
+2025-08-22T17:28:15.071Z	
+2025-08-22T17:28:15.071Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:15.071Z	> opennextjs-cloudflare build
+2025-08-22T17:28:15.071Z	
+2025-08-22T17:28:16.576Z	
+2025-08-22T17:28:16.576Z	┌─────────────────────────────┐
+2025-08-22T17:28:16.576Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:16.576Z	└─────────────────────────────┘
+2025-08-22T17:28:16.576Z	
+2025-08-22T17:28:16.725Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:16.725Z	Next.js version : 15.3.5
+2025-08-22T17:28:16.725Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:16.725Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:16.726Z	
+2025-08-22T17:28:16.726Z	┌─────────────────────────────────┐
+2025-08-22T17:28:16.726Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:16.726Z	└─────────────────────────────────┘
+2025-08-22T17:28:16.726Z	
+2025-08-22T17:28:17.201Z	
+2025-08-22T17:28:17.202Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:17.202Z	> opennextjs-cloudflare build
+2025-08-22T17:28:17.202Z	
+2025-08-22T17:28:18.835Z	
+2025-08-22T17:28:18.835Z	┌─────────────────────────────┐
+2025-08-22T17:28:18.835Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:18.835Z	└─────────────────────────────┘
+2025-08-22T17:28:18.835Z	
+2025-08-22T17:28:18.978Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:18.978Z	Next.js version : 15.3.5
+2025-08-22T17:28:18.979Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:18.979Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:18.981Z	
+2025-08-22T17:28:18.981Z	┌─────────────────────────────────┐
+2025-08-22T17:28:18.981Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:18.981Z	└─────────────────────────────────┘
+2025-08-22T17:28:18.981Z	
+2025-08-22T17:28:19.453Z	
+2025-08-22T17:28:19.453Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:19.453Z	> opennextjs-cloudflare build
+2025-08-22T17:28:19.453Z	
+2025-08-22T17:28:21.068Z	
+2025-08-22T17:28:21.068Z	┌─────────────────────────────┐
+2025-08-22T17:28:21.068Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:21.068Z	└─────────────────────────────┘
+2025-08-22T17:28:21.068Z	
+2025-08-22T17:28:21.204Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:21.204Z	Next.js version : 15.3.5
+2025-08-22T17:28:21.205Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:21.205Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:21.205Z	
+2025-08-22T17:28:21.205Z	┌─────────────────────────────────┐
+2025-08-22T17:28:21.205Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:21.206Z	└─────────────────────────────────┘
+2025-08-22T17:28:21.206Z	
+2025-08-22T17:28:21.681Z	
+2025-08-22T17:28:21.681Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:21.681Z	> opennextjs-cloudflare build
+2025-08-22T17:28:21.681Z	
+2025-08-22T17:28:23.346Z	
+2025-08-22T17:28:23.349Z	┌─────────────────────────────┐
+2025-08-22T17:28:23.349Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:23.349Z	└─────────────────────────────┘
+2025-08-22T17:28:23.349Z	
+2025-08-22T17:28:23.451Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:23.453Z	Next.js version : 15.3.5
+2025-08-22T17:28:23.453Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:23.453Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:23.453Z	
+2025-08-22T17:28:23.453Z	┌─────────────────────────────────┐
+2025-08-22T17:28:23.453Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:23.453Z	└─────────────────────────────────┘
+2025-08-22T17:28:23.453Z	
+2025-08-22T17:28:23.920Z	
+2025-08-22T17:28:23.920Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:23.920Z	> opennextjs-cloudflare build
+2025-08-22T17:28:23.920Z	
+2025-08-22T17:28:25.764Z	
+2025-08-22T17:28:25.764Z	┌─────────────────────────────┐
+2025-08-22T17:28:25.765Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:25.765Z	└─────────────────────────────┘
+2025-08-22T17:28:25.765Z	
+2025-08-22T17:28:25.896Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:25.896Z	Next.js version : 15.3.5
+2025-08-22T17:28:25.896Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:25.897Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:25.897Z	
+2025-08-22T17:28:25.897Z	┌─────────────────────────────────┐
+2025-08-22T17:28:25.897Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:25.897Z	└─────────────────────────────────┘
+2025-08-22T17:28:25.897Z	
+2025-08-22T17:28:26.357Z	
+2025-08-22T17:28:26.358Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:26.358Z	> opennextjs-cloudflare build
+2025-08-22T17:28:26.358Z	
+2025-08-22T17:28:27.941Z	
+2025-08-22T17:28:27.941Z	┌─────────────────────────────┐
+2025-08-22T17:28:27.941Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:27.941Z	└─────────────────────────────┘
+2025-08-22T17:28:27.941Z	
+2025-08-22T17:28:28.088Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:28.089Z	Next.js version : 15.3.5
+2025-08-22T17:28:28.089Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:28.089Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:28.089Z	
+2025-08-22T17:28:28.089Z	┌─────────────────────────────────┐
+2025-08-22T17:28:28.090Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:28.090Z	└─────────────────────────────────┘
+2025-08-22T17:28:28.090Z	
+2025-08-22T17:28:28.553Z	
+2025-08-22T17:28:28.553Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:28.553Z	> opennextjs-cloudflare build
+2025-08-22T17:28:28.553Z	
+2025-08-22T17:28:30.197Z	
+2025-08-22T17:28:30.197Z	┌─────────────────────────────┐
+2025-08-22T17:28:30.197Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:30.197Z	└─────────────────────────────┘
+2025-08-22T17:28:30.197Z	
+2025-08-22T17:28:30.344Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:30.349Z	Next.js version : 15.3.5
+2025-08-22T17:28:30.349Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:30.349Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:30.350Z	
+2025-08-22T17:28:30.350Z	┌─────────────────────────────────┐
+2025-08-22T17:28:30.350Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:30.350Z	└─────────────────────────────────┘
+2025-08-22T17:28:30.350Z	
+2025-08-22T17:28:30.842Z	
+2025-08-22T17:28:30.843Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:30.843Z	> opennextjs-cloudflare build
+2025-08-22T17:28:30.843Z	
+2025-08-22T17:28:32.513Z	
+2025-08-22T17:28:32.513Z	┌─────────────────────────────┐
+2025-08-22T17:28:32.513Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:32.514Z	└─────────────────────────────┘
+2025-08-22T17:28:32.514Z	
+2025-08-22T17:28:32.681Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:32.681Z	Next.js version : 15.3.5
+2025-08-22T17:28:32.681Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:32.681Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:32.681Z	
+2025-08-22T17:28:32.682Z	┌─────────────────────────────────┐
+2025-08-22T17:28:32.682Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:32.682Z	└─────────────────────────────────┘
+2025-08-22T17:28:32.682Z	
+2025-08-22T17:28:33.142Z	
+2025-08-22T17:28:33.142Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:33.142Z	> opennextjs-cloudflare build
+2025-08-22T17:28:33.142Z	
+2025-08-22T17:28:34.856Z	
+2025-08-22T17:28:34.856Z	┌─────────────────────────────┐
+2025-08-22T17:28:34.856Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:34.856Z	└─────────────────────────────┘
+2025-08-22T17:28:34.856Z	
+2025-08-22T17:28:35.006Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:35.007Z	Next.js version : 15.3.5
+2025-08-22T17:28:35.007Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:35.008Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:35.008Z	
+2025-08-22T17:28:35.008Z	┌─────────────────────────────────┐
+2025-08-22T17:28:35.008Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:35.008Z	└─────────────────────────────────┘
+2025-08-22T17:28:35.008Z	
+2025-08-22T17:28:35.472Z	
+2025-08-22T17:28:35.472Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:35.472Z	> opennextjs-cloudflare build
+2025-08-22T17:28:35.472Z	
+2025-08-22T17:28:37.112Z	
+2025-08-22T17:28:37.112Z	┌─────────────────────────────┐
+2025-08-22T17:28:37.112Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:37.113Z	└─────────────────────────────┘
+2025-08-22T17:28:37.113Z	
+2025-08-22T17:28:37.255Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:37.255Z	Next.js version : 15.3.5
+2025-08-22T17:28:37.256Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:37.256Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:37.256Z	
+2025-08-22T17:28:37.256Z	┌─────────────────────────────────┐
+2025-08-22T17:28:37.256Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:37.256Z	└─────────────────────────────────┘
+2025-08-22T17:28:37.256Z	
+2025-08-22T17:28:37.714Z	
+2025-08-22T17:28:37.714Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:37.714Z	> opennextjs-cloudflare build
+2025-08-22T17:28:37.714Z	
+2025-08-22T17:28:39.424Z	
+2025-08-22T17:28:39.424Z	┌─────────────────────────────┐
+2025-08-22T17:28:39.425Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:39.425Z	└─────────────────────────────┘
+2025-08-22T17:28:39.425Z	
+2025-08-22T17:28:39.575Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:39.575Z	Next.js version : 15.3.5
+2025-08-22T17:28:39.576Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:39.576Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:39.576Z	
+2025-08-22T17:28:39.576Z	┌─────────────────────────────────┐
+2025-08-22T17:28:39.577Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:39.577Z	└─────────────────────────────────┘
+2025-08-22T17:28:39.577Z	
+2025-08-22T17:28:40.034Z	
+2025-08-22T17:28:40.035Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:40.036Z	> opennextjs-cloudflare build
+2025-08-22T17:28:40.036Z	
+2025-08-22T17:28:34.974Z	
+2025-08-22T17:28:34.974Z	┌─────────────────────────────┐
+2025-08-22T17:28:34.974Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:34.975Z	└─────────────────────────────┘
+2025-08-22T17:28:34.975Z	
+2025-08-22T17:28:35.111Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:35.111Z	Next.js version : 15.3.5
+2025-08-22T17:28:35.112Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:35.112Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:35.112Z	
+2025-08-22T17:28:35.112Z	┌─────────────────────────────────┐
+2025-08-22T17:28:35.112Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:35.112Z	└─────────────────────────────────┘
+2025-08-22T17:28:35.112Z	
+2025-08-22T17:28:35.567Z	
+2025-08-22T17:28:35.567Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:35.567Z	> opennextjs-cloudflare build
+2025-08-22T17:28:35.568Z	
+2025-08-22T17:28:37.280Z	
+2025-08-22T17:28:37.281Z	┌─────────────────────────────┐
+2025-08-22T17:28:37.281Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:37.281Z	└─────────────────────────────┘
+2025-08-22T17:28:37.281Z	
+2025-08-22T17:28:37.441Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:37.441Z	Next.js version : 15.3.5
+2025-08-22T17:28:37.442Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:37.442Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:37.443Z	
+2025-08-22T17:28:37.443Z	┌─────────────────────────────────┐
+2025-08-22T17:28:37.443Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:37.443Z	└─────────────────────────────────┘
+2025-08-22T17:28:37.443Z	
+2025-08-22T17:28:37.907Z	
+2025-08-22T17:28:37.907Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:37.907Z	> opennextjs-cloudflare build
+2025-08-22T17:28:37.907Z	
+2025-08-22T17:28:39.517Z	
+2025-08-22T17:28:39.517Z	┌─────────────────────────────┐
+2025-08-22T17:28:39.518Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:39.518Z	└─────────────────────────────┘
+2025-08-22T17:28:39.518Z	
+2025-08-22T17:28:39.666Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:39.667Z	Next.js version : 15.3.5
+2025-08-22T17:28:39.667Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:39.667Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:39.667Z	
+2025-08-22T17:28:39.668Z	┌─────────────────────────────────┐
+2025-08-22T17:28:39.668Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:39.668Z	└─────────────────────────────────┘
+2025-08-22T17:28:39.668Z	
+2025-08-22T17:28:40.129Z	
+2025-08-22T17:28:40.129Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:40.129Z	> opennextjs-cloudflare build
+2025-08-22T17:28:40.129Z	
+2025-08-22T17:28:41.833Z	
+2025-08-22T17:28:41.833Z	┌─────────────────────────────┐
+2025-08-22T17:28:41.833Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:41.833Z	└─────────────────────────────┘
+2025-08-22T17:28:41.833Z	
+2025-08-22T17:28:41.978Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:41.978Z	Next.js version : 15.3.5
+2025-08-22T17:28:41.978Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:41.978Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:41.979Z	
+2025-08-22T17:28:41.979Z	┌─────────────────────────────────┐
+2025-08-22T17:28:41.979Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:41.979Z	└─────────────────────────────────┘
+2025-08-22T17:28:41.979Z	
+2025-08-22T17:28:42.441Z	
+2025-08-22T17:28:42.441Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:42.441Z	> opennextjs-cloudflare build
+2025-08-22T17:28:42.442Z	
+2025-08-22T17:28:44.087Z	
+2025-08-22T17:28:44.087Z	┌─────────────────────────────┐
+2025-08-22T17:28:44.088Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:44.088Z	└─────────────────────────────┘
+2025-08-22T17:28:44.088Z	
+2025-08-22T17:28:44.236Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:44.237Z	Next.js version : 15.3.5
+2025-08-22T17:28:44.237Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:44.237Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:44.237Z	
+2025-08-22T17:28:44.237Z	┌─────────────────────────────────┐
+2025-08-22T17:28:44.237Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:44.237Z	└─────────────────────────────────┘
+2025-08-22T17:28:44.237Z	
+2025-08-22T17:28:44.707Z	
+2025-08-22T17:28:44.707Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:44.708Z	> opennextjs-cloudflare build
+2025-08-22T17:28:44.708Z	
+2025-08-22T17:28:46.391Z	
+2025-08-22T17:28:46.391Z	┌─────────────────────────────┐
+2025-08-22T17:28:46.392Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:46.392Z	└─────────────────────────────┘
+2025-08-22T17:28:46.392Z	
+2025-08-22T17:28:46.525Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:46.525Z	Next.js version : 15.3.5
+2025-08-22T17:28:46.528Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:46.528Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:46.529Z	
+2025-08-22T17:28:46.531Z	┌─────────────────────────────────┐
+2025-08-22T17:28:46.531Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:46.531Z	└─────────────────────────────────┘
+2025-08-22T17:28:46.531Z	
+2025-08-22T17:28:46.987Z	
+2025-08-22T17:28:46.988Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:46.988Z	> opennextjs-cloudflare build
+2025-08-22T17:28:46.988Z	
+2025-08-22T17:28:48.538Z	
+2025-08-22T17:28:48.539Z	┌─────────────────────────────┐
+2025-08-22T17:28:48.539Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:48.539Z	└─────────────────────────────┘
+2025-08-22T17:28:48.539Z	
+2025-08-22T17:28:48.673Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:48.673Z	Next.js version : 15.3.5
+2025-08-22T17:28:48.674Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:48.674Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:48.674Z	
+2025-08-22T17:28:48.674Z	┌─────────────────────────────────┐
+2025-08-22T17:28:48.674Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:48.674Z	└─────────────────────────────────┘
+2025-08-22T17:28:48.675Z	
+2025-08-22T17:28:49.079Z	
+2025-08-22T17:28:49.079Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:49.079Z	> opennextjs-cloudflare build
+2025-08-22T17:28:49.079Z	
+2025-08-22T17:28:50.705Z	
+2025-08-22T17:28:50.705Z	┌─────────────────────────────┐
+2025-08-22T17:28:50.706Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:50.706Z	└─────────────────────────────┘
+2025-08-22T17:28:50.706Z	
+2025-08-22T17:28:50.821Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:50.824Z	Next.js version : 15.3.5
+2025-08-22T17:28:50.824Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:50.824Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:50.824Z	
+2025-08-22T17:28:50.824Z	┌─────────────────────────────────┐
+2025-08-22T17:28:50.824Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:50.825Z	└─────────────────────────────────┘
+2025-08-22T17:28:50.825Z	
+2025-08-22T17:28:51.208Z	
+2025-08-22T17:28:51.209Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:51.209Z	> opennextjs-cloudflare build
+2025-08-22T17:28:51.209Z	
+2025-08-22T17:28:52.653Z	
+2025-08-22T17:28:52.653Z	┌─────────────────────────────┐
+2025-08-22T17:28:52.653Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:52.653Z	└─────────────────────────────┘
+2025-08-22T17:28:52.653Z	
+2025-08-22T17:28:52.776Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:52.777Z	Next.js version : 15.3.5
+2025-08-22T17:28:52.777Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:52.777Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:52.777Z	
+2025-08-22T17:28:52.777Z	┌─────────────────────────────────┐
+2025-08-22T17:28:52.778Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:52.778Z	└─────────────────────────────────┘
+2025-08-22T17:28:52.778Z	
+2025-08-22T17:28:53.178Z	
+2025-08-22T17:28:53.178Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:53.178Z	> opennextjs-cloudflare build
+2025-08-22T17:28:53.178Z	
+2025-08-22T17:28:54.735Z	
+2025-08-22T17:28:54.735Z	┌─────────────────────────────┐
+2025-08-22T17:28:54.736Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:54.737Z	└─────────────────────────────┘
+2025-08-22T17:28:54.737Z	
+2025-08-22T17:28:54.865Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:54.866Z	Next.js version : 15.3.5
+2025-08-22T17:28:54.866Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:54.866Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:54.866Z	
+2025-08-22T17:28:54.866Z	┌─────────────────────────────────┐
+2025-08-22T17:28:54.866Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:54.867Z	└─────────────────────────────────┘
+2025-08-22T17:28:54.867Z	
+2025-08-22T17:28:55.267Z	
+2025-08-22T17:28:55.267Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:55.267Z	> opennextjs-cloudflare build
+2025-08-22T17:28:55.267Z	
+2025-08-22T17:28:56.831Z	
+2025-08-22T17:28:56.832Z	┌─────────────────────────────┐
+2025-08-22T17:28:56.832Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:56.832Z	└─────────────────────────────┘
+2025-08-22T17:28:56.832Z	
+2025-08-22T17:28:56.961Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:56.961Z	Next.js version : 15.3.5
+2025-08-22T17:28:56.962Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:56.962Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:56.962Z	
+2025-08-22T17:28:56.962Z	┌─────────────────────────────────┐
+2025-08-22T17:28:56.962Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:56.963Z	└─────────────────────────────────┘
+2025-08-22T17:28:56.963Z	
+2025-08-22T17:28:57.368Z	
+2025-08-22T17:28:57.369Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:57.369Z	> opennextjs-cloudflare build
+2025-08-22T17:28:57.369Z	
+2025-08-22T17:28:58.840Z	
+2025-08-22T17:28:58.840Z	┌─────────────────────────────┐
+2025-08-22T17:28:58.840Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:28:58.840Z	└─────────────────────────────┘
+2025-08-22T17:28:58.840Z	
+2025-08-22T17:28:58.985Z	App directory: /opt/buildhome/repo
+2025-08-22T17:28:58.985Z	Next.js version : 15.3.5
+2025-08-22T17:28:58.985Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:28:58.986Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:28:58.986Z	
+2025-08-22T17:28:58.986Z	┌─────────────────────────────────┐
+2025-08-22T17:28:58.986Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:28:58.986Z	└─────────────────────────────────┘
+2025-08-22T17:28:58.986Z	
+2025-08-22T17:28:59.389Z	
+2025-08-22T17:28:59.389Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:28:59.390Z	> opennextjs-cloudflare build
+2025-08-22T17:28:59.390Z	
+2025-08-22T17:29:00.848Z	
+2025-08-22T17:29:00.848Z	┌─────────────────────────────┐
+2025-08-22T17:29:00.849Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:00.849Z	└─────────────────────────────┘
+2025-08-22T17:29:00.849Z	
+2025-08-22T17:29:00.986Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:00.986Z	Next.js version : 15.3.5
+2025-08-22T17:29:00.986Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:00.987Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:00.987Z	
+2025-08-22T17:29:00.987Z	┌─────────────────────────────────┐
+2025-08-22T17:29:00.987Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:00.987Z	└─────────────────────────────────┘
+2025-08-22T17:29:00.987Z	
+2025-08-22T17:29:01.473Z	
+2025-08-22T17:29:01.473Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:01.473Z	> opennextjs-cloudflare build
+2025-08-22T17:29:01.473Z	
+2025-08-22T17:29:02.968Z	
+2025-08-22T17:29:02.968Z	┌─────────────────────────────┐
+2025-08-22T17:29:02.968Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:02.968Z	└─────────────────────────────┘
+2025-08-22T17:29:02.969Z	
+2025-08-22T17:29:03.112Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:03.112Z	Next.js version : 15.3.5
+2025-08-22T17:29:03.112Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:03.112Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:03.113Z	
+2025-08-22T17:29:03.113Z	┌─────────────────────────────────┐
+2025-08-22T17:29:03.113Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:03.113Z	└─────────────────────────────────┘
+2025-08-22T17:29:03.114Z	
+2025-08-22T17:29:03.506Z	
+2025-08-22T17:29:03.508Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:03.508Z	> opennextjs-cloudflare build
+2025-08-22T17:29:03.508Z	
+2025-08-22T17:29:05.048Z	
+2025-08-22T17:29:05.050Z	┌─────────────────────────────┐
+2025-08-22T17:29:05.050Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:05.050Z	└─────────────────────────────┘
+2025-08-22T17:29:05.050Z	
+2025-08-22T17:29:05.167Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:05.168Z	Next.js version : 15.3.5
+2025-08-22T17:29:05.168Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:05.168Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:05.169Z	
+2025-08-22T17:29:05.169Z	┌─────────────────────────────────┐
+2025-08-22T17:29:05.169Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:05.169Z	└─────────────────────────────────┘
+2025-08-22T17:29:05.169Z	
+2025-08-22T17:29:05.597Z	
+2025-08-22T17:29:05.597Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:05.597Z	> opennextjs-cloudflare build
+2025-08-22T17:29:05.597Z	
+2025-08-22T17:29:07.117Z	
+2025-08-22T17:29:07.117Z	┌─────────────────────────────┐
+2025-08-22T17:29:07.117Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:07.117Z	└─────────────────────────────┘
+2025-08-22T17:29:07.117Z	
+2025-08-22T17:29:07.241Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:07.241Z	Next.js version : 15.3.5
+2025-08-22T17:29:07.241Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:07.242Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:07.242Z	
+2025-08-22T17:29:07.242Z	┌─────────────────────────────────┐
+2025-08-22T17:29:07.242Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:07.242Z	└─────────────────────────────────┘
+2025-08-22T17:29:07.242Z	
+2025-08-22T17:29:07.672Z	
+2025-08-22T17:29:07.673Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:07.673Z	> opennextjs-cloudflare build
+2025-08-22T17:29:07.673Z	
+2025-08-22T17:29:09.270Z	
+2025-08-22T17:29:09.271Z	┌─────────────────────────────┐
+2025-08-22T17:29:09.271Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:09.271Z	└─────────────────────────────┘
+2025-08-22T17:29:09.272Z	
+2025-08-22T17:29:09.402Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:09.404Z	Next.js version : 15.3.5
+2025-08-22T17:29:09.406Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:09.406Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:09.406Z	
+2025-08-22T17:29:09.406Z	┌─────────────────────────────────┐
+2025-08-22T17:29:09.407Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:09.407Z	└─────────────────────────────────┘
+2025-08-22T17:29:09.407Z	
+2025-08-22T17:29:09.896Z	
+2025-08-22T17:29:09.896Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:09.897Z	> opennextjs-cloudflare build
+2025-08-22T17:29:09.897Z	
+2025-08-22T17:29:12.615Z	
+2025-08-22T17:29:12.615Z	┌─────────────────────────────┐
+2025-08-22T17:29:12.615Z	│ OpenNext — Cloudflare build │
+2025-08-22T17:29:12.615Z	└─────────────────────────────┘
+2025-08-22T17:29:12.615Z	
+2025-08-22T17:29:13.351Z	App directory: /opt/buildhome/repo
+2025-08-22T17:29:13.355Z	Next.js version : 15.3.5
+2025-08-22T17:29:13.355Z	@opennextjs/cloudflare version: 1.6.5
+2025-08-22T17:29:13.355Z	@opennextjs/aws version: 3.7.4
+2025-08-22T17:29:13.355Z	
+2025-08-22T17:29:13.355Z	┌─────────────────────────────────┐
+2025-08-22T17:29:13.365Z	│ OpenNext — Building Next.js app │
+2025-08-22T17:29:13.365Z	└─────────────────────────────────┘
+2025-08-22T17:29:13.366Z	
+2025-08-22T17:29:22.364Z	
+2025-08-22T17:29:22.422Z	> cloudflare-workers-nextjs-saas-template@0.1.0 build /opt/buildhome/repo
+2025-08-22T17:29:22.424Z	> opennextjs-cloudflare build
+2025-08-22T17:29:22.424Z	
