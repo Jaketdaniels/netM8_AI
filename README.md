@@ -116,7 +116,7 @@ Have a look at the [project plan](./cursor-docs/project-plan.md) to get an overv
 
 - [ ] Add an eslint rule to check for unused imports and exports
 - [ ] Add an eslint rule to check for unused variables and functions
-- [ ] Upgrade to Tailwind 4 and fix the errors and visual regressions. Already started here https://github.com/LubomirGeorgiev/cloudflare-workers-nextjs-saas-template/tree/tailwind-4-upgrade
+- [x] ~~Upgrade to Tailwind 4~~ ✅ Completed
 - [ ] Update Meta SEO tags 🔍
 - [ ] Dynamic OpenGraph images 📸
 - [ ] sitemap.xml 📄
