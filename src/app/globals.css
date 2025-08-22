@@ -4,7 +4,7 @@
 
 @import "tw-animate-css";
 /* TODO Hero UI is not fully compatible with Tailwind v4.0.0 */
-@config "../../hero.ts";
+@config "../../hero.mjs";
 @source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 
 @variant dark (&:where(.dark, .dark *));
