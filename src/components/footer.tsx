@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { SiX as XIcon, SiGithub as GithubIcon } from '@icons-pack/react-simple-icons'
+import { SiGithub as GithubIcon } from '@icons-pack/react-simple-icons'
 import ThemeSwitch from "@/components/theme-switch";
 import { GITHUB_REPO_URL, SITE_NAME } from "@/constants";
 import { Button } from "./ui/button";
-import AgenticDevStudioLogo from "./agenticdev-studio-logo";
 import { getGithubStars } from "@/utils/stats";
 import { Suspense } from "react";
 
@@ -40,32 +39,23 @@ export function Footer() {
                     Home
                   </Link>
                 </li>
+                <li>
+                  <a
+                    href="https://netm8.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground text-center md:text-left"
+                  >
+                    Website
+                  </a>
+                </li>
               </ul>
             </div>
 
             {/* Social Links and Theme Switch */}
             <div className="space-y-3 md:space-y-4 flex flex-col items-center md:items-start">
               <h3 className="text-sm font-semibold text-foreground text-center md:text-left">Social</h3>
-              <div className="flex items-center space-x-4">
-                <a
-                  href="https://github.com/LubomirGeorgiev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  <GithubIcon className="h-5 w-5" />
-                  <span className="sr-only">GitHub</span>
-                </a>
-                <a
-                  href="https://x.com/LubomirGeorg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  <XIcon className="h-5 w-5" />
-                  <span className="sr-only">X (formerly Twitter)</span>
-                </a>
-              </div>
+              <div className="flex items-center space-x-4"></div>
             </div>
           </div>
 
@@ -87,13 +77,12 @@ export function Footer() {
                   <ThemeSwitch />
 
                   <a
-                    href="https://agenticdev.agency"
+                    href="https://netm8.com"
                     target="_blank"
-                    className="flex items-center font-medium text-sm hover:text-foreground transition-colors"
+                    rel="noopener noreferrer"
+                    className="font-medium text-sm hover:text-foreground transition-colors whitespace-nowrap"
                   >
-                    <span className="whitespace-nowrap">Built by</span>
-                    <AgenticDevStudioLogo className="h-7 w-7 mx-1.5" />
-                    <span className="whitespace-nowrap">AgenticDev</span>
+                    Built by NetM8
                   </a>
                 </div>
               </div>

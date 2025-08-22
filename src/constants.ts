@@ -1,9 +1,9 @@
 import type { Route } from "next"
 
-export const SITE_NAME = "SaaS Template"
-export const SITE_DESCRIPTION = "A modern SaaS template built with Next.js 15 and Cloudflare Workers, designed for scalability and performance."
-export const SITE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://nextjs-saas-template.agenticdev.agency"
-export const GITHUB_REPO_URL = "https://github.com/LubomirGeorgiev/cloudflare-workers-nextjs-saas-template"
+export const SITE_NAME = "netM8 AI"
+export const SITE_DESCRIPTION = "A general purpose AI agent with code interpreting"
+export const SITE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://netm8.com"
+export const GITHUB_REPO_URL = "https://github.com/Jaketdaniels/netM8_AI.git"
 
 export const SITE_DOMAIN = new URL(SITE_URL).hostname
 export const PASSWORD_RESET_TOKEN_EXPIRATION_SECONDS = 24 * 60 * 60 // 24 hours
