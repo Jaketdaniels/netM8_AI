@@ -3,19 +3,31 @@ description:
 globs:
 alwaysApply: true
 ---
-# Cloudflare Workers Next.js SaaS Template
+# netM8 AI - SaaS Platform
 
-This is a comprehensive, production-ready Next.js SaaS template designed to run on Cloudflare Workers with OpenNext. It includes authentication, team management, billing, and other common SaaS features needed to launch a modern web application.
+This is the SaaS platform for netM8, a unified personal AI agent service. Built on a production-ready Next.js template designed to run on Cloudflare Workers with OpenNext, it provides the infrastructure for authentication, team management, billing, and multi-tenant features.
 
-**Live Demo**: [nextjs-saas-template.agenticdev.agency](mdc:https:/nextjs-saas-template.agenticdev.agency/sign-up)
+**Live Platform**: [netm8.com](mdc:https:/netm8.com)
 
-**GitHub Repository**: [cloudflare-workers-nextjs-saas-template](mdc:https:/github.com/LubomirGeorgiev/cloudflare-workers-nextjs-saas-template)
+**GitHub Repository**: [netM8_AI](mdc:https:/github.com/Jaketdaniels/netM8_AI.git)
 
-## Key Capabilities
+## netM8 Service Overview
+
+netM8 is a unified personal AI agent that provides secure and private access to your digital ecosystem. Users interact with a single AI agent for all their needs - from internet search and deep research to device management, entertainment, communications, and personal organization.
+
+### Example Use Cases:
+- **Research**: Internet search, deep research, data analysis
+- **Technical**: Network settings, device troubleshooting, shortcuts and hacks
+- **Organization**: Diary management, email management, task coordination
+- **Communications**: Unified messaging (iMessage, SMS, WhatsApp, Messenger, Snapchat, Signal, Telegram)
+- **Entertainment**: Spotify playlists, Plex library organization, content downloads
+- **Life Management**: Shopping, finances, travel planning
+
+## Platform Infrastructure
 
 - **Authentication & Security**: Complete auth system with Lucia Auth, WebAuthn/Passkeys, OAuth, rate limiting, and session management
 - **Multi-tenancy**: Teams/organizations with role-based permissions and tenant isolation
-- **Billing System**: Credit-based billing with Stripe integration, usage tracking, and transaction history
+- **Billing System**: Credit-based billing with Stripe integration for AI usage tracking
 - **Admin Dashboard**: User management, credit administration, and analytics
 - **Modern Stack**: Next.js 15, React Server Components, TypeScript, Tailwind CSS, Shadcn UI
 - **Edge Computing**: Cloudflare Workers with D1 database, KV storage, and global deployment

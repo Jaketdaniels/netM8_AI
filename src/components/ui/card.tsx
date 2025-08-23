@@ -1,20 +1,50 @@
 import * as React from "react"
-
+import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
-const Card = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "rounded-lg border bg-card text-card-foreground shadow-sm",
-      className
-    )}
-    {...props}
-  />
-))
+const cardVariants = cva(
+  "rounded-lg bg-card text-card-foreground transition-all duration-200",
+  {
+    variants: {
+      variant: {
+        default: "border border-border shadow-sm hover:shadow-md",
+        elevated: "shadow-lg hover:shadow-xl",
+        ghost: "border-0 shadow-none",
+        outline: "border-2 border-primary/20 shadow-none hover:border-primary/40",
+      },
+      glow: {
+        none: "",
+        primary: "shadow-lg shadow-primary/10 hover:shadow-primary/20",
+        success: "shadow-lg shadow-success/10 hover:shadow-success/20",
+        destructive: "shadow-lg shadow-destructive/10 hover:shadow-destructive/20",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      glow: "none",
+    },
+  }
+)
+
+export interface CardProps
+  extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof cardVariants> {
+  hoverable?: boolean
+}
+
+const Card = React.forwardRef<HTMLDivElement, CardProps>(
+  ({ className, variant, glow, hoverable = false, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(
+        cardVariants({ variant, glow }),
+        hoverable && "cursor-pointer hover:scale-[1.02] active:scale-[0.99]",
+        className
+      )}
+      {...props}
+    />
+  )
+)
 Card.displayName = "Card"
 
 const CardHeader = React.forwardRef<
@@ -76,4 +106,4 @@ const CardFooter = React.forwardRef<
 ))
 CardFooter.displayName = "CardFooter"
 
-export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
+export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent, cardVariants }

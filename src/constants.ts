@@ -1,7 +1,7 @@
 import type { Route } from "next"
 
-export const SITE_NAME = "netM8 AI"
-export const SITE_DESCRIPTION = "A general purpose AI agent with code interpreting"
+export const SITE_NAME = "netM8"
+export const SITE_DESCRIPTION = "A unified personal AI agent with secure and private access to your digital ecosystem"
 export const SITE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://netm8.com"
 export const GITHUB_REPO_URL = "https://github.com/Jaketdaniels/netM8_AI.git"
 

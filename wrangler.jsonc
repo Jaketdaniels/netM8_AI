@@ -81,7 +81,12 @@
         {
             "binding": "NEXT_TAG_CACHE_D1",
             "database_name": "netm8-ai-saas-cache",
-            "database_id": "1b44086a-4fd3-4d10-b01f-69141f26f59b",
+            "database_id": "1b44086a-4fd3-4d10-b01f-69141f26f59b"
+        },
+        {
+            "binding": "DB",
+            "database_name": "netm8-ai-saas-db",
+            "database_id": "6f55ac27-fc33-485e-bd68-a6a38493e327",
             "migrations_dir": "src/db/migrations"
         }
     ],
