@@ -53,7 +53,7 @@ export default function GoogleCallbackClientComponent() {
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <div className="flex flex-col items-center space-y-4">
-              <Spinner size="large" />
+              <Spinner size="lg" />
               <CardTitle>Signing in with Google</CardTitle>
               <CardDescription>
                 Please wait while we complete your sign in...

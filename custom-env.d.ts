@@ -6,4 +6,7 @@ interface CloudflareEnv {
   BREVO_API_KEY?: string;
   GOOGLE_CLIENT_ID?: string;
   GOOGLE_CLIENT_SECRET?: string;
+  // D1 Database bindings
+  DB?: D1Database;
+  NEXT_TAG_CACHE_D1?: D1Database;
 }

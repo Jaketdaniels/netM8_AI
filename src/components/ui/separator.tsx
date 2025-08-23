@@ -58,9 +58,10 @@ const separatorVariants = cva(
 )
 
 export interface SeparatorProps
-  extends React.ComponentPropsWithoutRef<typeof SeparatorPrimitive.Root>,
+  extends Omit<React.ComponentPropsWithoutRef<typeof SeparatorPrimitive.Root>, 'orientation'>,
     VariantProps<typeof separatorVariants> {
   label?: string
+  orientation?: "horizontal" | "vertical"
 }
 
 const Separator = React.forwardRef<

@@ -57,7 +57,7 @@ export default function VerifyEmailClientComponent() {
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <div className="flex flex-col items-center space-y-4">
-              <Spinner size="large" />
+              <Spinner size="lg" />
               <CardTitle>Verifying Email</CardTitle>
               <CardDescription>
                 Please wait while we verify your email address...

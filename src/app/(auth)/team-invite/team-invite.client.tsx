@@ -64,7 +64,7 @@ export default function TeamInviteClientComponent() {
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <div className="flex flex-col items-center space-y-4">
-              <Spinner size="large" />
+              <Spinner size="lg" />
               <CardTitle>Accepting Invitation</CardTitle>
               <CardDescription>
                 Please wait while we process your team invitation...

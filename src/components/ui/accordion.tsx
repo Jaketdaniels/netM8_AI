@@ -46,8 +46,7 @@ const accordionTriggerVariants = cva(
   }
 )
 
-export interface AccordionProps
-  extends React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Root> {
+export type AccordionProps = React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Root> & {
   variant?: "default" | "separated" | "ghost" | "card"
 }
 

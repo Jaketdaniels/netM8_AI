@@ -112,7 +112,7 @@ const selectContentVariants = cva(
     variants: {
       position: {
         popper: "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1",
-        item: "",
+        "item-aligned": "",
       }
     },
     defaultVariants: {
@@ -122,18 +122,22 @@ const selectContentVariants = cva(
 )
 
 export interface SelectContentProps
-  extends React.ComponentPropsWithoutRef<typeof SelectPrimitive.Content>,
-    VariantProps<typeof selectContentVariants> {}
+  extends Omit<React.ComponentPropsWithoutRef<typeof SelectPrimitive.Content>, 'position'> {
+  position?: "popper" | "item-aligned"
+  className?: string
+  children?: React.ReactNode
+}
 
 const SelectContent = React.forwardRef<
   React.ElementRef<typeof SelectPrimitive.Content>,
   SelectContentProps
->(({ className, children, position = "popper", ...props }, ref) => (
-  <SelectPrimitive.Portal>
-    <SelectPrimitive.Content
-      ref={ref}
-      className={cn(selectContentVariants({ position }), className)}
-      position={position}
+>(({ className, children, position = "popper", ...props }, ref) => {
+  return (
+    <SelectPrimitive.Portal>
+      <SelectPrimitive.Content
+        ref={ref}
+        className={cn(selectContentVariants({ position }), className)}
+        position={position}
       {...props}
     >
       <SelectScrollUpButton />
@@ -149,7 +153,8 @@ const SelectContent = React.forwardRef<
       <SelectScrollDownButton />
     </SelectPrimitive.Content>
   </SelectPrimitive.Portal>
-))
+  )
+})
 SelectContent.displayName = SelectPrimitive.Content.displayName
 
 const SelectLabel = React.forwardRef<
